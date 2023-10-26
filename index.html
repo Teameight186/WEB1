@@ -11,9 +11,9 @@
 <body>
     <!-- заголовок -->
     <header class="header">
-        <img src="img/ROBO.SCHOOL.svg" alt="">
+        <img src="img/ROBO.SCHOOL.svg" alt="Главная страница">
         <a href=""><img src="img/Group312.svg"></a>
-        <a href=""><img src="img/menu.svg"></a>
+        <button"><img src="img/menu.svg"></button>
     </header>
     <main>
         <!-- первая секция -->
@@ -22,52 +22,60 @@
             <p>Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>
             <img src="img/Group211.png"  width="273" height="320" alt="">
             <!-- 1. Добавить класс 2. и задать стили -->
-            <button style="width: 300px; height: 60px;" class="section__btn">
+            <button class="section__btn">
                 Записаться на курс
             </button>
             <!-- 1. Добавить класс -->
         </section>
         <!-- вторая секция -->
-        <section class="text_center">
+        <section>
             <div class="text_left">
                 <p>
-                    <span class="bold">Robo School</span> - учреждение для формирования кадрового педагогического резерва в сфере робототехникии программирования
+                    <span>Robo School</span> - учреждение для формирования кадрового педагогического резерва в сфере робототехникии программирования
                 </p>
             </div>
-           
-            <div class="container">
-                <p class="numbers">10</p>
-                <p>УМК по различным направлениям по робототехнике</p>
-            </div>
-            <div class="container">
-                <p class="numbers">20</p>
-                <p>Школ, в которых запущена робототехника</p>
-            </div>
-            <div class="container">
-                <p class="numbers">100</p>
-                <p >Педагогов прошедших курсы повышения квалификации</p>
-            </div>
-            <div class="container">
-                <p class="numbers">10 000</p>
-                <p>Обученных детей на базе собственных центров</p>
-            </div>
             
+            <div class="horizont"> 
+                <div class="container">
+                    <p class="numbers">10</p>
+                    <p>УМК по различным направлениям по робототехнике</p>
+                </div>
+                <div class="container">
+                    <p class="numbers">20</p>
+                    <p>Школ, в которых запущена робототехника</p>
+                </div>
+                <div class="container">
+                    <p class="numbers">100</p>
+                    <p >Педагогов прошедших курсы повышения квалификации</p>
+                </div>
+                <div class="container">
+                    <p class="numbers">10 000</p>
+                    <p>Обученных детей на базе собственных центров</p>
+                </div>
+            </div>
+                
             
         </section>
         <!-- третья секция -->
         <section class="section_2">
             <h2>Что вы получите после курса</h2>
-            <h3>Удостоверение</h3>
-            <p>Дающее право преподавать робототехнику для детей 6-12 лет в образовательных учреждениях</p>
-            <h3>Знания</h3>
-            <p>По основам разработки учебно-методических комплексов по робототехнике и программированию</p>
-            <h3>Практику</h3>
-
-            <button>
-                <img src="" alt="">
-            </button>
-
-            <p>Возможность пройти практику по преподаванию робототехники на базе R:ED LAB (в оффлайн или онлайн формате)</p>
+            <div class="horizont">
+                <div class="blok">
+                    <h3>Удостоверение</h3>
+                    <p>Дающее право преподавать робототехнику для детей 6-12 лет в образовательных учреждениях</p>
+                </div>
+                <div class="blok">
+                    <h3>Знания</h3>
+                    <p>По основам разработки учебно-методических комплексов по робототехнике и программированию</p>
+                </div>    
+                <div class="blok">
+                    <h3>Практику</h3>
+                    <button>
+                        <img src="" alt="">
+                    </button>
+                    <p>Возможность пройти практику по преподаванию робототехники на базе R:ED LAB (в оффлайн или онлайн формате)</p>
+                </div>
+            </div>    
         </section>
         <!-- СЛАЙДЕР -->
         <section class="swiper">
@@ -123,48 +131,55 @@
         </section>
 
         <section>
-            <h2>Выберите нужный пакет</h2>
+            <h2 class="text_center">Выберите нужный пакет</h2>
+            <div class="horizontal">
+                <div class="paket">
+                    <h3>-PRO-</h3>
+                    <h4>20.000 ₽</h4>
+                    <p>УМК по робототетхнике и программированию</p>
+                    <button>Оставить заявку</button>
+                </div>
 
-            <div>
-                <h3>-PRO-</h3>
-                <p>20.000 ₽</p>
-                <p>УМК по робототетхнике и программированию</p>
-                <button>Оставить заявку</button>
-            </div>
+                <div class="paket" >
+                    <h3>-ROBO-</h3>
+                    <h4>15.000 ₽</h4>
+                    <p>УМК по робототетхнике</p>
+                    <button>Оставить заявку</button>
+                </div>
 
-            <div>
-                <h3>-ROBO-</h3>
-                <p>15.000 ₽</p>
-                <p>УМК по робототетхнике</p>
-                <button>Оставить заявку</button>
-            </div>
-
-            <div>
-                <h3>-PROG-</h3>
-                <p>10.000 ₽</p>
-                <p>УМК по программированию</p>
-                <button>Оставить заявку</button>
+                <div class="paket">
+                    <h3>-PROG-</h3>
+                    <h4>10.000 ₽</h4>
+                    <p>УМК по программированию</p>
+                    <button>Оставить заявку</button>
+                </div>
             </div>
         </section>
 
-        <section>
+        <section class="forma">
             <h2>Запишитесь на курс со скидкой 10%</h2>
             <p>Акция действительна до 10 марта 2022 года</p>
             <form>
-                <label for="name">Имя</label>
-                <input type="text" name="name" id="name" required>
-
-                <label for="phone">Телефон</label>
-                <input type="text" name="phone" id="phone" required>
-
-                <label for="e-mail">E-mail</label>
-                <input type="text" name="e-mail" id="e-mail" required>
+                <div>
+                    <label for="name"></label>
+                    <input type="text" name="name" id="name"  placeholder="Имя" required>
+                </div>
+                <div>
+                    <label for="phone"></label>
+                    <input type="text" name="phone" id="phone" placeholder="Телефон" required>
+                </div>
+                <div>
+                    <label for="e-mail"></label>
+                    <input type="text" name="e-mail" id="e-mail" placeholder="E-mail" required>
+                </div>
             </form>
+            <button>Оформить заявку</button>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <h2>ROBO.SCHOOL</h2>
-        <p>+7 800 000 11 22</p>
+        <p class="numbr">+7 800 000 11 22</p>
+        <p class="botm">© ROBO.SCHOOL</p>
     </footer>
 </body>
 
