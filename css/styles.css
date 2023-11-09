@@ -4,13 +4,13 @@
     box-sizing: border-box;
     margin: 0;
 }
-.image-button{
-    width: 44px;
-    height: 44px;
-    border-radius: 5px;
-    background-image: "img\Group312.svg";
-    background-size: cover;
+
+section{
+    text-align: center;
+
 }
+
+
 
 .header{
     text-align: left;
@@ -23,7 +23,7 @@
 a{
     color: #D52027;
     text-decoration: none;
-  }
+}
 
 .section{
     text-align: center;
@@ -36,49 +36,39 @@ a{
     justify-content: center;
 }
 
-.section h1{
-  font-size: 30px;
+section h2{
+    font-size: 3rem;
 }
 
-.section__btn{
-    width: 300px;
-    height: 60px;
-    background-color: #D52027;
-    color: white;
-    border-radius: 5px;
-    border: none;
-    font-size: 16px;
+.section p{
+    font-size: 1.6rem;
 }
+
+.section h1{
+  font-size: 3rem;
+}
+
+
 
 body{
     font-family: 'Jost', sans-serif;
-    font-size: 16px;
-}
-
-.text_left span{
-    font-weight: 900;
-}
-
-.numbers{
-    font-size: 60px;
-    font-weight: 900;
-    color: #D52027;
-    margin-bottom: 10px;
-}
-  
-
-.text_center{
-    text-align: center;
 }
 
 .text_left{
     text-align: left;
-    font-size: 20px;
     margin-bottom: 50px;
     margin-top: 50px;
     padding-left: 10px;
     max-width: 600px;
-    
+}
+
+.text_left p{
+    font-size: 2rem;
+}
+
+.text_left span{
+    font-weight: 900;
+    font-size: 2rem;
 }
 
 .card-image{
@@ -92,7 +82,6 @@ body{
 }
 
 .section_2{
-    text-align: center;
     background:#F9F9F9;
     width: 100%;
     margin-bottom: 25px;
@@ -100,31 +89,17 @@ body{
     padding-bottom: 70px;
 }
 
-.i_btn{
-    width: 24px;
-    height: 24px;
-    border-radius: 100%;
-    background-color: #E5E5E5;
-    border: 0;
-}
-
-.blok{
-    max-width: 270px;
-    text-align: center;
-}
-
 .section_2 h2{
     margin-bottom: 25px;
-    font-size: 30px;
 }
 
 .section_2 h3{
     margin-top: 40px;
-    font-size: 20px
+    font-size: 2rem;
 }
 
 .section_2 p{
-    font-size: 16px;
+    font-size: 1.6rem;
     margin-top: 10px;
 }
 
@@ -142,15 +117,21 @@ body{
     margin-bottom: 25px;
 }
 
+.container .numbers{
+    font-size: 6rem;
+    font-weight: 900;
+    color: #D52027;
+    margin-bottom: 10px;
+}
+
+.container p{
+    font-size: 2rem;
+}
+
 .swiper{
 
 }
 
-.swiper h2{
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
-}
 
 .forma{
     text-align: center;
@@ -163,11 +144,6 @@ body{
     
 }
 
-.forma h2{
-    font-size: 30px;
-    font-weight: 500;
-}
-
 .forma div{
     flex-direction: column;
     margin-top: 5px;
@@ -178,55 +154,18 @@ input[type="text"] {
     height: 60px;
     border-radius: 5px;
 }
+
 input[type="text"], input[type="password"],
 textarea {
   font-family:'Jost', 'sans-serif';
 }  
 
-.footer{
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 20px ;
-    background:#141024;
-    width: 100%;
-    color: white;
-    align-items: center;
-}
 
-.footer a{
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none; /* Убирает подчеркивание ссылки */
-    color: inherit; 
-}
 
 .forma p{
-    font-size: 16px;
+    font-size: 1.6rem;
     margin-top: 25px;
     margin-bottom: 30px;
-}
-
-.numbr{
-    font-size: 16px;
-    font-weight: 500;
-    margin-top: 20px;
-}
-
-.botm{
-    font-size: 14px;
-    font-weight:100;
-    margin-top: 30px;
-}
-
-.forma button{
-    width: 300px;
-    height: 60px;
-    background-color: #141024;
-    color: #FFFFFF;
-    border-radius: 5px;
-    border: none;
-    font-size: 16px;
-    margin-top: 5px;
 }
 
 .paket{
@@ -246,24 +185,14 @@ textarea {
 }
 
 
-.paket button{
-    width: 260px;
-    height: 60px;
-    background-color: #D52027;
-    color: white;
-    border-radius: 5px;
-    border: none;
-    font-size: 16px;
-    margin-bottom: 10px;
-}
 
 .paket h3{
     font-size: 30px;
     margin-top: 20px;
 }
 
-.paket h4{
-    font-size: 50px;
+.prices{
+    font-size: 5rem;
     margin-top: 40px;
 }
 
@@ -284,16 +213,39 @@ textarea {
     
 }
 
-.horizontal h2{
-    justify-content: center;
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 25px;
-    margin-top: 30px;
-}
-
 .horizontal div:nth-of-type(1){
     background-color: #141024;
     color: #FFFFFF;
     margin-bottom: 25px;
+}
+
+/* FOOTER */
+.footer{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px ;
+    background:#141024;
+    width: 100%;
+    color: white;
+    align-items: center;
+}
+
+.footer a{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none; /* Убирает подчеркивание ссылки */
+    color: inherit; 
+}
+
+.footer .numbr{
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 20px;
+    display: block;
+}
+
+.footer .botm{
+    font-size: 1.4rem;
+    font-weight:100;
+    margin-top: 30px;
 }

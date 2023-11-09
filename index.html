@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/styles.css" rel="stylesheet">
+    <link href="./css/normalize.css" rel="stylesheet">
+    <link href="./css/buttons.css" rel="stylesheet">
     <title>Home Page</title>
 </head>
 
@@ -20,10 +22,9 @@
         <section class="section">
             <div>
                 <h1>ROBO SCHOOL</h1>
-                <p class="blok">Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>
+                <p>Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>
             </div>
             <img src="img/Group211.png"  width="273" height="320" alt="">
-            <!-- 1. Добавить класс 2. и задать стили -->
             <button class="section__btn">
                 Записаться на курс
             </button>
@@ -31,7 +32,6 @@
 
         <!-- Цифры и статистика -->
         <section>
-            
             <div class="text_left">
                 <p>
                     <span>Robo School</span> - учреждение для формирования кадрового педагогического резерва в сфере робототехникии программирования
@@ -41,19 +41,19 @@
             <div class="horizont"> 
                 <div class="container">
                     <p class="numbers">10</p>
-                    <p class="blok">УМК по различным направлениям по робототехнике</p>
+                    <p>УМК по различным направлениям по робототехнике</p>
                 </div>
                 <div class="container">
                     <p class="numbers">20</p>
-                    <p class="blok">Школ, в которых запущена робототехника</p>
+                    <p>Школ, в которых запущена робототехника</p>
                 </div>
                 <div class="container">
                     <p class="numbers">100</p>
-                    <p class="blok">Педагогов прошедших курсы повышения квалификации</p>
+                    <p>Педагогов прошедших курсы повышения квалификации</p>
                 </div>
                 <div class="container">
                     <p class="numbers">10 000</p>
-                    <p class="blok">Обученных детей на базе собственных центров</p>
+                    <p>Обученных детей на базе собственных центров</p>
                 </div>
             </div>
         </section>
@@ -132,25 +132,25 @@
 
         <!-- Выбор программы обучения -->
         <section>
-            <h2 class="text_center">Выберите нужный пакет</h2>
+            <h2>Выберите нужный пакет</h2>
             <div class="horizontal">
                 <div class="paket">
                     <h3>-PRO-</h3>
-                    <h4>20.000 ₽</h4>
+                    <p class="prices">20.000 ₽</p>
                     <p>УМК по робототетхнике и программированию</p>
                     <button>Оставить заявку</button>
                 </div>
 
                 <div class="paket" >
                     <h3>-ROBO-</h3>
-                    <h4>15.000 ₽</h4>
+                    <p class="prices">15.000 ₽</p>
                     <p>УМК по робототетхнике</p>
                     <button>Оставить заявку</button>
                 </div>
 
                 <div class="paket">
                     <h3>-PROG-</h3>
-                    <h4>10.000 ₽</h4>
+                    <p class="prices">10.000 ₽</p>
                     <p>УМК по программированию</p>
                     <button>Оставить заявку</button>
                 </div>
@@ -174,14 +174,14 @@
                     <label for="e-mail"></label>
                     <input type="text" name="e-mail" id="e-mail" placeholder="E-mail" required>
                 </div>
+                <button type="submit">Оформить заявку</button>
             </form>
-            <button>Оформить заявку</button>
         </section>
     </main>
 
     <footer class="footer">
         <a href="">ROBO.SCHOOL</a>
-        <p class="numbr">+7 800 000 11 22</p>
+        <a href="tel:+78000001122" class="numbr">+7 800 000 11 22</a>
         <p class="botm">© ROBO.SCHOOL</p>
     </footer>
 </body>
