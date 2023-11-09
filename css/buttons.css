@@ -1,4 +1,4 @@
-
+@import 'color.css';
 button{
     border-radius: 5px;
     border: none;
@@ -8,29 +8,29 @@ button{
 .section__btn{
     width: 300px;
     height: 60px;
-    background-color: #D52027;
-    color: white;
+    background-color: var(--red-color);
+    color: var(--white-color);
 }
 
 .i_btn{
     width: 24px;
     height: 24px;
     border-radius: 100%;
-    background-color: #E5E5E5;
+    background-color: var( --gray-color);
 }
 
 .forma button{
     width: 300px;
     height: 60px;
-    background-color: #141024;
-    color: white;
+    background-color: var(--darkblue-color);
+    color: var(--white-color);
     margin-top: 5px;
 }
 
 .paket button{
     width: 260px;
     height: 60px;
-    background-color: #D52027;
-    color: white;
+    background-color: var(--red-color);
+    color: var(--white-color);
     margin-bottom: 10px;
 }

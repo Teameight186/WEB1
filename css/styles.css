@@ -1,35 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
-
+@import 'color.css';
 *{
     box-sizing: border-box;
     margin: 0;
 }
 
-section{
-    text-align: center;
+body{
+    font-family: 'Jost', sans-serif;
 
 }
 
+section{
+    text-align: center;
+}
 
-
+.img{
+    width: 86%;
+    max-width: 783px;
+}
+  
 .header{
     text-align: left;
-    background:#141024;
+    background:var(--darkblue-color);
     width: 100%;
-    color: white;
+    color: var(--white-color);
     padding-bottom: 30px;
 }
 
 a{
-    color: #D52027;
+    color: var(--red-color);
     text-decoration: none;
 }
 
 .section{
     text-align: center;
-    background:#141024;
+    background:var(--darkblue-color);
     width: 100%;
-    color: white;
+    color: var(--white-color);
     padding-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -46,12 +53,6 @@ section h2{
 
 .section h1{
   font-size: 3rem;
-}
-
-
-
-body{
-    font-family: 'Jost', sans-serif;
 }
 
 .text_left{
@@ -82,7 +83,7 @@ body{
 }
 
 .section_2{
-    background:#F9F9F9;
+    background:var(--lightgray-color);
     width: 100%;
     margin-bottom: 25px;
     padding-top: 70px;
@@ -91,6 +92,7 @@ body{
 
 .section_2 h2{
     margin-bottom: 25px;
+   
 }
 
 .section_2 h3{
@@ -101,6 +103,8 @@ body{
 .section_2 p{
     font-size: 1.6rem;
     margin-top: 10px;
+    max-width: 360px;
+    min-width: 300px;
 }
 
 .horizont{
@@ -114,14 +118,15 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 75px;
+    max-width: 320px;
 }
 
 .container .numbers{
     font-size: 6rem;
     font-weight: 900;
-    color: #D52027;
-    margin-bottom: 10px;
+    color: var(--red-color);
+    margin-bottom: 40px;
 }
 
 .container p{
@@ -134,14 +139,20 @@ body{
 
 
 .forma{
-    text-align: center;
-    background:#D52027;
-    color: white;
-    align-items: center;
+    background:var(--red-color);
+    color: var(--white-color);
+    align-items: left;
     margin-top: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     
+}
+
+.forma .size{
+    max-width: 350px;
 }
 
 .forma div{
@@ -169,14 +180,14 @@ textarea {
 }
 
 .paket{
-    background-color: white;
+    background-color: var(--white-color);
     border-radius: 20px;
     border: 1px solid gray;
     padding: 20px;
     margin: 10px;
     height: 394px;
     width: 300px;
-    color: #141024;
+    color: var(--darkblue-color);
     text-align: center;
 }
 
@@ -191,9 +202,10 @@ textarea {
     margin-top: 20px;
 }
 
-.prices{
+.paket .prices{
     font-size: 5rem;
-    margin-top: 40px;
+    margin-top: 80px;
+    font-weight: 700;
 }
 
 .paket p{
@@ -210,12 +222,13 @@ textarea {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     
 }
 
 .horizontal div:nth-of-type(1){
-    background-color: #141024;
-    color: #FFFFFF;
+    background-color: var(--darkblue-color);
+    color: var(--white-color);
     margin-bottom: 25px;
 }
 
@@ -224,9 +237,9 @@ textarea {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 20px ;
-    background:#141024;
+    background: var(--darkblue-color);
     width: 100%;
-    color: white;
+    color: var(--white-color);
     align-items: center;
 }
 
