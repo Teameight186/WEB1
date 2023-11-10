@@ -2,12 +2,10 @@
 @import 'color.css';
 *{
     box-sizing: border-box;
-    margin: 0;
 }
 
 body{
     font-family: 'Jost', sans-serif;
-
 }
 
 section{
@@ -15,16 +13,18 @@ section{
 }
 
 .img{
-    width: 86%;
-    max-width: 783px;
+   width: 80%;
+   max-width: 783px;
 }
   
 .header{
-    text-align: left;
     background:var(--darkblue-color);
     width: 100%;
     color: var(--white-color);
     padding-bottom: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
 }
 
 a{
@@ -58,7 +58,7 @@ section h2{
 .text_left{
     text-align: left;
     margin-bottom: 50px;
-    margin-top: 50px;
+    padding-top: 70px;
     padding-left: 10px;
     max-width: 600px;
 }
@@ -111,6 +111,7 @@ section h2{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding: 10px;
 
 }
 
@@ -133,9 +134,23 @@ section h2{
     font-size: 2rem;
 }
 
-.swiper{
-
+.swiper h3{
+    font-size: 2rem;
 }
+
+.swiper p{
+    font-size: 1.4rem;
+}
+
+.swiper a{
+    font-size: 1.6rem;
+}
+
+.swiper div{
+    flex-direction: column;
+}
+
+
 
 
 .forma{
@@ -148,7 +163,7 @@ section h2{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
+    padding: 10px;
 }
 
 .forma .size{
