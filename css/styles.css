@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+p{
+    line-height: 3rem;
+}
+
 body{
     font-family: 'Jost', sans-serif;
 }
@@ -26,9 +30,8 @@ section{
     padding-top: 10px;
     padding-left: 10px;
     display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    
+    justify-content: space-between;
+    align-items: center;   
 }
 
 a{
@@ -49,6 +52,7 @@ a{
 
 .starter h1{
     font-size: 3rem;
+    margin-top: 10px;
 }
 
 section h2{
@@ -57,14 +61,15 @@ section h2{
 
 .starter p{
     font-size: 1.6rem;
+    font-weight: 100;
+    margin-top: 20px;
 }
 
 
 
 .text_left{
     text-align: left;
-    margin-bottom: 50px;
-    padding-top: 70px;
+    padding-top: 60px;
     padding-left: 10px;
     max-width: 600px;
 }
@@ -91,14 +96,9 @@ section h2{
 .information{
     background:var(--lightgray-color);
     width: 100%;
-    margin-bottom: 25px;
     padding-top: 70px;
     padding-bottom: 70px;
-}
-
-.information h2{
-    margin-bottom: 25px;
-   
+    margin-top: 50px;
 }
 
 .information h3{
@@ -118,14 +118,13 @@ section h2{
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 10px;
-
 }
 
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 75px;
+    margin-top: 50px;
     max-width: 320px;
 }
 
@@ -133,11 +132,16 @@ section h2{
     font-size: 6rem;
     font-weight: 900;
     color: var(--red-color);
-    margin-bottom: 40px;
 }
 
 .container p{
-    font-size: 2rem;
+    font-size: 1.6rem;
+    color: #141024;
+    margin-top: 40px;
+}
+
+.swiper h2{
+   margin-top: 50px;
 }
 
 .swiper h3{
@@ -153,51 +157,18 @@ section h2{
 }
 
 .swiper div{
+    margin-top: 40px;
     flex-direction: column;
 }
 
-
-
-
-.forma{
-    background:var(--red-color);
-    color: var(--white-color);
-    align-items: left;
+.learning_programs{
     margin-top: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 10px;
 }
 
-.forma .size{
-    max-width: 350px;
-}
-
-.forma div{
-    flex-direction: column;
-    margin-top: 5px;
-}
-
-input[type="text"] {
-    width: 300px;
-    height: 60px;
-    border-radius: 5px;
-}
-
-input[type="text"], input[type="password"],
-textarea {
-  font-family:'Jost', 'sans-serif';
-}  
-
-
-
-.forma p{
-    font-size: 1.6rem;
-    margin-top: 25px;
-    margin-bottom: 30px;
+.learning_programs h2{
+    max-width: 75%;
+    margin-left: auto;
+     margin-right: auto;
 }
 
 .paket{
@@ -244,7 +215,7 @@ textarea {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
+    margin-top: 50px;
 }
 
 .horizontal div:nth-of-type(1){
@@ -252,6 +223,50 @@ textarea {
     color: var(--white-color);
    
 }
+
+.forma{
+    background:var(--red-color);
+    color: var(--white-color);
+    align-items: left;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.forma .size{
+    margin-top: 50px;
+    max-width: 350px;
+}
+
+.forma div{
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+input[type="text"] {
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="password"],
+textarea {
+  font-family:'Jost', 'sans-serif';
+}  
+
+
+
+.forma p{
+    font-size: 1.6rem;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+
 
 /* FOOTER */
 .footer{
