@@ -17,6 +17,7 @@ button{
     height: 24px;
     border-radius: 100%;
     background-color: var( --gray-color);
+    margin: 0 5px;
 }
 
 .forma button{
