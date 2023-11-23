@@ -10,6 +10,7 @@ button{
     height: 60px;
     background-color: var(--red-color);
     color: var(--white-color);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 4);
 }
 
 .i_btn{
@@ -38,4 +39,6 @@ button{
 
 .menu{
     background-color: transparent;
+    box-shadow:  rgba(0, 0, 0, 0.2);
+
 }
