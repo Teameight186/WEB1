@@ -42,3 +42,23 @@ button{
     box-shadow:  rgba(0, 0, 0, 0.2);
 
 }
+
+
+@media (min-width: 1024px){
+    .section__btn{
+        width: 276px;
+        height: 76px;
+    }
+    .forma button{
+        width: 500px;
+        height: 64px;
+    }
+    button{
+        font-size: 1.8rem;
+    }
+    .paket button{
+        width: 280px;
+        height: 80px;
+    }
+
+}
