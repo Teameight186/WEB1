@@ -23,13 +23,20 @@ section{
     text-align: center;
 }
 
+.menu_buttons_desktop{
+    display: flex; 
+    column-gap: 50px; 
+}
+
 .img_girl{
    width: 80%;
    max-width: 600px;
   
 }
-  
-.header{
+header a{
+    color: var(--white-color);
+}
+header{
     background:var(--darkblue-color);
     width: 100%;
     color: var(--white-color);
@@ -38,7 +45,16 @@ section{
     padding-left: 10px;
     display: flex;
     justify-content: space-between;
-    align-items: center;   
+    /* align-items: center;    */
+}
+
+.menu_buttons_desktop{
+    display: flex;
+    justify-content: space-between;
+}
+.menu_buttons_desktop a{
+    color: var(--white-color);
+    
 }
 
 a{
@@ -405,7 +421,21 @@ textarea {
 }
 
 @media (min-width: 1024px){
-   
+    .menu_buttons_mobile{
+        display: none;
+    }
+    .menu_buttons_desktop{
+        display: flex;
+        justify-content: center;
+    }
+    .menu_buttons_desktop ul{
+        display: flex;
+        justify-content: center;
+        column-gap: 20px;
+    }
+    /* header{
+        justify-content: space-around;
+    } */
     /* 1 секция */
     .starter{
         padding-bottom: 0;
