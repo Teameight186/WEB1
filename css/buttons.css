@@ -8,9 +8,14 @@ button{
 .section__btn{
     width: 300px;
     height: 60px;
+    justify-self: center;
     background-color: var(--red-color);
     color: var(--white-color);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 4);
+    margin-top: -60px;
+}
+section{
+    text-align: center;
 }
 
 .i_btn{
@@ -44,10 +49,21 @@ button{
 }
 
 
+
+@media (min-width: 768px) {
+    .section__btn{
+        margin-top: 0;
+        margin-left: 50px;
+        align-self: flex-start;
+    }
+}
+
 @media (min-width: 1024px){
     .section__btn{
         width: 276px;
         height: 76px;
+        margin-left: 50px;
+        margin-top: 0;
     }
     .forma button{
         width: 500px;
