@@ -64,7 +64,7 @@ a{
 }
 
 .inside_starter{
-    max-height: 200px;
+    /* max-height: 200px; */
     
     /* flex-direction: column; */
 }
@@ -191,8 +191,8 @@ a{
 
 /* ............SLIDER.......... */
 .card_image{
-    width: 22rem;
-    height: 30.6rem;
+    width: 220px;
+    height: 306px;
 }
 
 .card_image img{
@@ -215,11 +215,11 @@ a{
 
 .card{
     margin-top: 1rem;
-    width: 100%;
+    width: 220px;
     height: 100%;
     padding: 2rem 1rem;
+    margin: 5px;
     display: flex;
-    align-items: center;
     flex-direction: column;
 }
 
@@ -241,6 +241,8 @@ a{
 .card-title{
     margin-top: 2rem;
     font-size: 1.4rem;
+    display: flex;
+    text-align:  left;
 }
 
 .swiper a{
@@ -372,6 +374,7 @@ textarea {
     width: 100%;
     color: var(--white-color);
     align-items: center;
+    flex-direction: column;
 }
 
 .footer a{
@@ -413,7 +416,22 @@ textarea {
         min-width: 273px;
         max-width: 500px;
     }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
 }
+@media (min-width: 320px) and (max-width: 610px){
+    /* .horizont{
+        justify-items: center;
+    } */
+}
+@media (min-width: 610px){
+    .horizont{
+        justify-items: left;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1350px){
     .img_girl{
         max-width: 500px;
@@ -423,7 +441,7 @@ textarea {
 @media (min-width: 768px){
     .horizont{
         grid-template-columns: repeat(2, minmax(320px, 1fr));
-
+    
     }
     .statistics{
         padding-left: 50px;
@@ -447,17 +465,18 @@ textarea {
     .inside_starter{
         align-self: end; 
         margin-bottom: 40px;
-        margin-right: 20px;
-        justify-self: right;
+        
+        align-items: left ;
+        margin-left: 5%;
         display: grid;
         max-width: 360px;
-        gap: 30px;
     }
     .starter p{
         font-size: 1.6rem;
         display: flex;
         text-align: left;
         margin: 0;
+        margin-top: 30px;
     }
     .img_girl{
         grid-column: 2 / 3; /* Разместить элемент в правой колонке */
@@ -501,14 +520,14 @@ textarea {
         grid-template-rows: auto;
     }
     .starter h1{
-        font-size: 7rem;
+        font-size: 6rem;
         margin-top: 10px; 
         
     }
     .inside_starter{
         align-self: end; 
-        max-width: 490px;
-        gap: 40px;
+        max-width: 490px;   
+        margin-left: 15%;
     }
     /*.starter p{
         font-size: 2rem;
@@ -579,6 +598,14 @@ textarea {
         text-align: left;
         padding-left: 200px;
     }
+    .card_image{
+        width: 360px;
+        height: 500px;
+    }
+    .card{
+        width: 360px;
+        margin: 10px;
+    }
 
     /* 5секция */
     .learning_programs h2{
@@ -648,14 +675,18 @@ textarea {
 }
 
 @media (min-width: 1350px){
-    /* .img_girl{
-        width: 783px;
-    } */
+    .starter h1{
+        font-size: 7rem;
+    }
     .horizont{
         grid-template-columns: repeat(4, minmax(320px, 1fr));
 
     }
     .statistics{
         padding-left: 150px;
+    }
+    .inside_starter{
+        margin-left: 29%;
+        
     }
 }

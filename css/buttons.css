@@ -53,8 +53,9 @@ section{
 @media (min-width: 768px) {
     .section__btn{
         margin-top: 0;
-        margin-left: 50px;
         align-self: flex-start;
+        justify-self: left;
+        margin-left: 5%;
     }
 }
 
@@ -62,7 +63,7 @@ section{
     .section__btn{
         width: 276px;
         height: 76px;
-        margin-left: 50px;
+        margin-left: 15%;
         margin-top: 0;
     }
     .forma button{
@@ -77,4 +78,11 @@ section{
         height: 80px;
     }
 
+}
+@media (min-width: 1350px){
+   
+    .section__btn{
+        margin-left: 29%;
+        
+    }
 }
