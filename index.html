@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link href="./css/normalize.css" rel="stylesheet">
     <link href="./css/styles.css" rel="stylesheet">
     <link href="./css/buttons.css" rel="stylesheet">
+    <link href="./css/media.css" rel="stylesheet">
     <title>Home Page</title>
   
 </head>
@@ -17,7 +17,7 @@
     <header>
         <a href="index.html" class="header_main_page">ROBO.SCHOOL</a>
         <div class="menu_buttons_mobile">
-            <a href=""><img src="img/Group312.svg" alt="Телефон"></a>
+            <a href="tel:+78000001122"><img src="img/Group312.svg" alt="Телефон"></a>
             <button class="menu"><img src="img/menu.svg" alt="Меню"></button>
         </div>
         
@@ -25,13 +25,13 @@
         <div class="menu_buttons_desktop">
             <ul>
                 <li>
-                    <a href="">О школе</a>
+                    <a href="#starter">О школе</a>
                 </li>
                 <li>
-                    <a href="">Тренеры</a>
+                    <a href="#swiper">Тренеры</a>
                 </li>
                 <li>
-                    <a href="">Стоимость</a>
+                    <a href="#learning_programs">Стоимость</a>
                 </li>
             </ul>
             
@@ -41,7 +41,7 @@
     </header>
     <main>
         <!-- ROBOSCHOOL запись на курс -->
-        <section class="starter">
+        <section class="starter" id = "starter">
             <div class="inside_starter">
                 <h1>ROBO SCHOOL</h1>
                 <p>Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>
@@ -53,6 +53,7 @@
 
         <!-- Цифры и статистика -->
         <section class="statistics">
+            <h2 class="hidden_statistics">Статистика</h2>
             <div class="text_left">
                 <p>
                     <span>Robo School</span> - учреждение для формирования кадрового педагогического резерва в сфере робототехникии программирования
@@ -80,7 +81,7 @@
         </section>
 
         <!-- Информация о курсе -->
-        <section class="information">
+        <section class="information" id="information">
             <h2>Что вы получите после курса</h2>
             <div class="inf_horizontal">
                 <div>
@@ -104,7 +105,7 @@
         </section>
 
         <!-- Тренеры -->
-        <section class="swiper">
+        <section class="swiper" id="swiper">
             <h2>Профессиональные тренеры</h2>
             <div class="swiper-wrapper">
                 <div class="card">
@@ -156,7 +157,7 @@
     
 
         <!-- Выбор программы обучения -->
-        <section class="learning_programs">
+        <section class="learning_programs" id="learning_programs">
             <h2>Выберите нужный пакет</h2>
             <div class="horizontal">
                 <div class="paket">
