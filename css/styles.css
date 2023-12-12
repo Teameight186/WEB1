@@ -344,7 +344,7 @@ a{
     margin-top: 5px;
 }
 
-input[type="text"] {
+input{
     width: 300px;
     height: 60px;
     border-radius: 5px;
@@ -352,8 +352,7 @@ input[type="text"] {
     border: none;
 }
 
-input[type="text"], input[type="password"],
-textarea {
+input, textarea {
   font-family:'Jost', 'sans-serif';
 }  
 
@@ -373,6 +372,7 @@ textarea {
 }
 .percents{
     flex: 0 0 auto;
+    opacity: 0.5;
 }
 
 
@@ -657,7 +657,7 @@ textarea {
     .size p{ 
         font-size: 2rem;
     }
-    input[type="text"] {
+    input{
         width: 500px;
         height: 64px;
         border-radius: 5px;

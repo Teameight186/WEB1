@@ -13,7 +13,7 @@
 
 .side_panel{
     display: grid;
-    grid-template-rows: repeat(1fr,6);
+    grid-template-rows: repeat(6, 1fr);
 }
 
 .side_panel a{
@@ -23,7 +23,7 @@
 .charts{
     display: grid;
     grid-column-gap: 10px;
-    grid-template-columns: repeat(1fr, 6);
+    grid-template-columns: repeat(6, 1fr);
  
 } 
 
@@ -45,7 +45,7 @@
 .kitties{
   margin-top: 2rem;
   display: grid;
-  gap: 10px; /* Расстояние между фотографиями */
+  gap: 10px; 
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 }
 

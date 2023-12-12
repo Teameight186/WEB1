@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="./css/normalize.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+    <link href="./css/buttons.css" rel="stylesheet">
+    <link href="./css/form.css" rel="stylesheet">
+    <title>Форма ROBOSCHOOL</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="header_main_page">ROBO.SCHOOL</a>
+        <div class="menu_buttons_mobile">
+            <a href=""><img src="img/Group312.svg" alt="Телефон"></a>
+            <button class="menu"><img src="img/menu.svg" alt="Меню"></button>
+        </div>
+        
+        
+        <div class="menu_buttons_desktop">
+            <ul>
+                <li>
+                    <a href="">О школе</a>
+                </li>
+                <li>
+                    <a href="">Тренеры</a>
+                </li>
+                <li>
+                    <a href="">Стоимость</a>
+                </li>
+            </ul>
+            
+        </div>
+        <a href="tel:+78000001122" class="phone_header">+7 800 000 11 22</a>
+    </header>
+
+    <main>
+        <section>
+            <h1>Форма для регистрации</h1>
+            <form action="//httpbin.org/post" method="post">
+                <div class="column">
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+              
+                <div class="column">
+                    <label for="dob">Дата рождения:</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+              
+                <div class="column">
+                    <label for="gender">Пол:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="male">Мужской</option>
+                        <option value="female">Женский</option>
+                        <option value="other">Другой</option>
+                    </select>
+                </div>
+              
+                <div class="column">
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+              
+                <div class="column">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+              
+                <div class="column">
+                    <label for="phone">Телефон:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+              
+                <div class="column">
+                    <label for="contact-time">Удобное время для связи:</label>
+                    <select id="contact-time" name="contact-time" required>
+                      <option value="morning">Утро</option>
+                      <option value="day">День</option>
+                      <option value="evening">Вечер</option>
+                      <option value="night">Ночь</option>
+                    </select>
+                </div>
+                <button type="submit">Отправить</button>
+                <button type="reset">Сбросить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="grid.html" class="a_botm">ROBO.SCHOOL</a>
+        <a href="tel:+78000001122" class="numbr">+7 800 000 11 22</a>
+        <p class="botm">© ROBO.SCHOOL</p>
+    </footer>
+</body>
+</html>
