@@ -88,7 +88,11 @@ input[type="date"]{
     display: flex;
     flex-direction: row;
     padding-right: 10px;
+}
 
+input[type="radio"] {
+  transform: scale(0.7); /* Замените 1.5 на желаемый масштаб */
+}
 
 .gender_choice{
     display: flex;
