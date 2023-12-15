@@ -6,20 +6,12 @@
 }
 
 @media (min-width: 320px) and (max-width: 1024px){
-    .img_girl{
-        min-width: 273px;
-        max-width: 500px;
-    }
     .footer{
         display: flex;
         flex-direction: column;
     }
 }
-@media (min-width: 320px) and (max-width: 610px){
-    /* .horizont{
-        justify-items: center;
-    } */
-}
+
 @media (min-width: 610px){
     .horizont{
         justify-items: left;
@@ -45,10 +37,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
-        /* display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        position: relative; */
+       
     }
     .starter h1{
         font-size: 4rem;
@@ -59,7 +48,6 @@
     .inside_starter{
         align-self: end; 
         margin-bottom: 40px;
-        
         align-items: left ;
         margin-left: 5%;
         display: grid;

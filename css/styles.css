@@ -18,7 +18,16 @@ p{
 
 body{
     font-family: 'Jost', sans-serif;
+   
 }
+
+.wrapper_k{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 
 .menu_buttons_desktop{
     display: flex; 
@@ -419,4 +428,117 @@ input, textarea {
 }
 
 
-/* МЕДИА ЗАПРОСЫ */
+/* ПСЕВДО */
+
+a{
+    transition: 1s; /* Плавное изменение свойств при наведении */
+    cursor: pointer;
+}
+
+a:hover {
+    color: blue; /* Цвет текста при наведении */
+  }
+  
+  a:active {
+    color: green; /* Цвет текста при активации (нажатии) */
+  }
+  
+a:focus {
+    outline: 2px solid red; /* Обводка при фокусировке */
+}
+
+  /* Стилизация для кнопок */
+
+
+button {
+    transition: 1s;
+    cursor: pointer;
+}
+
+/* Стили для нечетных кнопок */
+.horizontal .paket:nth-child(odd) button {
+    background-color: green; /* Цвет фона для нечетных кнопок */
+    color: white; /* Цвет текста для нечетных кнопок */
+}
+
+/* Изменение цвета фона и текста для нечетных кнопок при наведении */
+.horizontal .paket:nth-child(odd) button:hover {
+    background-color: rgb(100, 68, 143);
+    color: white;
+}
+
+/* Изменение цвета фона и текста для всех кнопок при наведении */
+button:hover {
+    background-color: rgb(100, 68, 143);
+    color: white;
+}
+
+/* Цвет фона при активации (нажатии) для всех кнопок */
+button:active {
+    background-color: red;
+}
+
+/* Обводка при фокусировке для всех кнопок */
+button:focus {
+    border: 2px solid black;
+}
+
+
+
+.header a::selection{
+    background-color: #fff; 
+    color: #000;
+}
+
+.starter ::selection{
+    background-color: #fff; 
+    color: #141024;
+}
+
+.statistics ::selection{
+    background-color: #141024; 
+    color: #fff; 
+}
+
+.information ::selection{
+    background-color: #141024; 
+    color: #fff; 
+}
+
+.swiper ::selection{
+    background-color: #141024; 
+    color: #fff; 
+}
+.learning_programs ::selection{
+    background-color: #141024; 
+    color: #fff;
+}
+
+
+
+.horizontal div:nth-of-type(1) ::selection{
+    background-color: #ffffff; 
+    color: #000; 
+
+}
+
+
+.forma ::selection {
+    background-color: #ffffff; 
+    color: #000;   /* Цвет текста при выделении в блоке 1 */
+}
+.forma input::selection {
+    background-color: #000; 
+    color: #fff;   /* Цвет текста при выделении в блоке 1 */
+}
+
+
+.footer ::selection{
+    background-color: #fff; 
+    color: #000;
+}
+
+
+
+/* Стили для загрузчика */
+
