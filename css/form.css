@@ -13,14 +13,13 @@ main{
 select{
     height: 40px;
     width: 150px;
-    /* justify-self: center; */
 }
 
 form{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    margin-bottom: 220px;
+    margin-bottom: 20px;
     padding-bottom: 20px;
     gap: 10px;
     background-color: #f1f1f1;
@@ -52,7 +51,6 @@ input{
     border-radius: 5px;
     grid-column: 2;
 }
-
 
 select{
     border-radius: 5px;
@@ -91,8 +89,9 @@ input[type="date"]{
 }
 
 input[type="radio"] {
-  transform: scale(0.7); /* Замените 1.5 на желаемый масштаб */
+  transform: scale(0.7);
 }
+
 
 .gender_choice{
     display: flex;
@@ -100,9 +99,24 @@ input[type="radio"] {
     gap: 20px;
 }
 .footer{
-    position: fixed;
-    bottom: 0;
+    position: sticky;
     width: 100%;
     bottom: 0;
-    padding: 5px;
+    padding: 20px;
 }
+
+.footer {
+    overflow: hidden; /* обрезаем элементы, которые выходят за границы футера */
+}
+  
+.logo {
+    transition: transform 0.3s;
+    transform-origin: center; /* Задаем точку вращения в центре элемента */
+  }
+  
+  .rot{
+    width: 100px;
+  }
+  .rot :hover {
+    transform: rotate(30deg) scale(1.5, 1.5) skewX(5deg) skewY(5deg);
+  }
